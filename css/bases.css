@@ -1,0 +1,17 @@
+:root {
+    --celeste-claro: #86b0e6;
+    --celeste-botones: #2A7AE4;
+    --gris-letras: #464646;
+    --gris-claro-letras: #A2A2A2;
+    --fondo: #E5E5E5;
+    --fondo-oscuro: #9e797927;
+
+    --raleway: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--raleway);
+    width: 100%;
+    background-color: var(--fondo);
+}
+

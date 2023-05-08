@@ -1,0 +1,58 @@
+.tablita{
+    margin: 150px auto;
+    width: 70%;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: .5rem;
+}
+
+thead{
+    background-color: var(--celeste-claro);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--gris-letras);
+    margin-bottom: 2rem;
+}
+
+tr:nth-child(even){
+    background-color: var(--fondo-oscuro);
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnModificar{
+    color: rgba(146, 144, 8, 0.836);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.btnEliminar{
+    border: solid .5px;
+    border-color: rgb(156, 173, 173);
+    color: rgb(224, 85, 85);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 3px;
+}
+
+tr:hover td{
+    background-color: var(--celeste-claro);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--gris-letras);
+    margin-bottom: 2rem;
+}

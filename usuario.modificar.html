@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bases.css">
+    <link rel="stylesheet" href="./css/header/header.css">
+    <link rel="stylesheet" href="./css/body/banner.css">
+    <link rel="stylesheet" href="./css/body/items.css">
+    <link rel="stylesheet" href="./css/body/menu-inferior.css">
+    <link rel="stylesheet" href="./css/footer/footer.css">
+    <link rel="stylesheet" href="./css/body/administrador.css">
+    <link rel="stylesheet" href="./css/body/iniciarsesion.css">
+    <link rel="stylesheet" href="./css/medias/administrador.css">
+</head>
+<body>
+    <header class="menu__superior">
+        <div class="logo__superior">
+            <a href="./index.html"><img src="./img/Logo.png" alt="logo"></a>
+            <a href="./index.html"><img src="./img/Alura.png" alt="alura"></a>
+            <a href="./index.html"><img src="./img/Geek.png" alt="geek"></a>
+        </div>
+        <div>
+            <input class="busqueda__superior" type="search" placeholder="¿Qué deseas buscar?" data-buscar>
+            <img src="./img/lupa.png" alt="lupa" class="lupita" data-lupa>
+        </div>
+        <a class="btn__login">Menú Administrador</a>
+    </header>
+    <main>
+
+        <section class="administrador">
+            <h3>Modificar usuario</h3>
+            <form action="" class="administrador__form" data-form>
+
+                <input type="text" autofocus placeholder="Nombre del Usuario" class="menu__inferior--formtxt iniciarSesion__txt" required data-nombreUsuario>
+
+                <input type="email" autofocus placeholder="Email del Usuario" class="menu__inferior--formtxt iniciarSesion__txt" required data-emailUsuario>
+
+                <input type="password" placeholder="Contraseña" class="menu__inferior--formtxt iniciarSesion__txt" required data-contraseñaUsuario>
+
+                <button class="menu__inferior--btn">Modificar usuario</button>
+            </form>
+        </section>
+        
+        <section class="menu__inferior">
+            <div class="menu__inferior--logo">
+                <a href="./index.html"><img src="./img/Logo.png" alt="logo"></a>
+                <a href="./index.html"><img src="./img/Alura.png" alt="alura"></a>
+                <a href="./index.html"><img src="./img/Geek.png" alt="geek"></a>
+            </div>
+            <div class="menu__inferior--menu">
+                <ul>
+                    <li class="menu__inferior--link"><a href="#">Quienes somos</a></li>
+                    <li class="menu__inferior--link"><a href="#">Politicas de privacidad</a></li>
+                    <li class="menu__inferior--link"><a href="#">Programa de fidelidad</a></li>
+                    <li class="menu__inferior--link"><a href="#">Nuestras tiendas</a></li>
+                    <li class="menu__inferior--link"><a href="#">Quiero ser franquiciado</a></li>
+                    <li class="menu__inferior--link"><a href="#">Anuncie aquí</a></li>
+                </ul>
+            </div>
+            <div class="menu__inferior--formulario">
+                <h4 class="menu__inferior--titulo">Hable con nosotros</h4>
+                <form action="" class="menu__inferior--form">
+                    <input class="menu__inferior--formtxt" type="text" placeholder="Escriba su nombre" maxlength="40" required></input>
+                    <input class="menu__inferior--formtxt" type="text" required placeholder="Escribe tu mensaje" maxlength="120"></input>
+                    <button class="menu__inferior--btn">Enviar Mensaje</button>
+                </form>
+            </div>
+      </section>
+    </main>
+    <footer class="pieDePagina">
+        <h3>&#174 Realización de Cristian Fontanini &#174</h3>
+        <a href="mailto:cristiafonta16@gmail.com">cristianfonta16@gmail.com</a>
+    </footer>
+    <script type="module" src="./js/productos.buscar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./js/usuario.modificar.js"></script>
+</body>
+</html>

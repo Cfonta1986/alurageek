@@ -1,0 +1,37 @@
+.items__productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productos_contenedor{
+    flex-wrap: wrap;
+}
+
+.edicion-completa{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}
+
+.edicion-completa__btn{
+    height: 1rem;
+}
+
+.productoUnico {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.productoUnico__img{
+    width: 300px;
+    height: 240px;
+}
+
+.producto__unico-div{
+    margin-left: 1rem;
+}

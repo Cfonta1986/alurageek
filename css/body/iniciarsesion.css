@@ -1,0 +1,20 @@
+.iniciarSesion{    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.iniciarSesion__login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iniciarSesion__txt{
+    width: 40%;
+}
+
+.iniciarSesion__btn{
+    width: 35%;
+}
