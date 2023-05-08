@@ -1,0 +1,180 @@
+{
+  "articulos": [
+    {
+      "foto": "./img/canecasw.png",
+      "categoria": "Star Wars",
+      "nombre": "Canecas",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "d175a9f8-609c-45c7-8853-6399427ec9cb"
+    },
+    {
+      "foto": "./img/legosw.png",
+      "categoria": "Star Wars",
+      "nombre": "Legos",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "462957fd-dfcc-414d-b429-a53b7515922a"
+    },
+    {
+      "foto": "./img/yoda.png",
+      "categoria": "Star Wars",
+      "nombre": "Yoda",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "0cb78b22-85cd-4776-9a54-25daf0a23a1e"
+    },
+    {
+      "foto": "./img/trupper.png",
+      "categoria": "Star Wars",
+      "nombre": "Trupper",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "a6f738be-71ec-4159-ab66-06b900cba4f2"
+    },
+    {
+      "foto": "./img/grogu-exposito.png",
+      "categoria": "Star Wars",
+      "nombre": "Grogu",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "15db09c8-bed2-47aa-ba69-42b873846214"
+    },
+    {
+      "foto": "./img/mandalorian.png",
+      "categoria": "Star Wars",
+      "nombre": "Mandalorian",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "ed271bea-e6f5-4875-9afe-330875868205"
+    },
+    {
+      "foto": "./img/jsxbox.png",
+      "categoria": "Consolas",
+      "nombre": "Joystick XBox",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "2e6a45d5-3f18-45dc-8198-77b89f971eea"
+    },
+    {
+      "foto": "./img/consolas-2.png",
+      "categoria": "Consolas",
+      "nombre": "Consola 2",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "caa85040-d535-4f1e-917c-fe0f7bdbedee"
+    },
+    {
+      "foto": "./img/consolas-3.png",
+      "categoria": "Consolas",
+      "nombre": "Super Nintendo",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "d3ce318d-ab2b-430d-9d8c-0ba57d3a8906"
+    },
+    {
+      "foto": "./img/consolas-4.png",
+      "categoria": "Consolas",
+      "nombre": "Joysticks",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "a5591df8-1cac-47de-871f-ad65548165a6"
+    },
+    {
+      "foto": "./img/consolas-5.png",
+      "categoria": "Consolas",
+      "nombre": "Consola 5",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "658837c0-8eee-43cc-a1c2-8b5dd7ffd8ee"
+    },
+    {
+      "foto": "./img/consolas-6.png",
+      "categoria": "Consolas",
+      "nombre": "Game Boy",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "ed5088ce-0027-4d30-896d-951e64e02e90"
+    },
+    {
+      "foto": "./img/atari.png",
+      "categoria": "Diversos",
+      "nombre": "Atari",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "ec7f7df8-967f-49f6-b9ba-7fb1b99b4fe4"
+    },
+    {
+      "foto": "./img/camisasnes.png",
+      "categoria": "Diversos",
+      "nombre": "Camisa Snes",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "2a7bbea0-f0ba-49bb-85a4-14e8613029a1"
+    },
+    {
+      "foto": "./img/sonic.png",
+      "categoria": "Diversos",
+      "nombre": "Sonic",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "5717d2e0-b0ea-400d-b6bb-ef32079ef487"
+    },
+    {
+      "foto": "./img/relogio.png",
+      "categoria": "Diversos",
+      "nombre": "Relogio",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "a5e1e0cc-cb1d-4366-8976-414cf5fe9fa6"
+    },
+    {
+      "foto": "./img/vr.png",
+      "categoria": "Diversos",
+      "nombre": "V-R",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "8a3af322-f180-42dc-9126-1516b9a81eda"
+    },
+    {
+      "foto": "./img/pikachu.png",
+      "categoria": "Diversos",
+      "nombre": "Pikachu",
+      "precio": "$60",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "54e1f822-99a8-4a8f-a4bd-3bff2375ec2e"
+    }
+  ],
+  "usuarios": [
+    {
+      "usuario": "fonta",
+      "email": "cristianfonta16@gmail.com",
+      "contraseña": "YOsoyelFONTA",
+      "id": 4490800987987565600
+    },
+    {
+      "usuario": "mica",
+      "email": "mikitita@gmail.com",
+      "contraseña": "soyMICA",
+      "id": 234832353654242400000
+    },
+    {
+      "usuario": "lola",
+      "email": "lolafontita16@gmail.com",
+      "contraseña": "lolonciTA",
+      "id": 234832674353530940
+    },
+    {
+      "usuario": "mikita",
+      "email": "mikita@gmail.com",
+      "contraseña": "MIKITA",
+      "id": 32674490756453233000
+    },
+    {
+      "usuario": "pepito",
+      "email": "pepito@gmail.com",
+      "contraseña": "pepito",
+      "id": "667d2595-0912-4bab-8774-ec7f20f74d63"
+    }
+  ]
+}
