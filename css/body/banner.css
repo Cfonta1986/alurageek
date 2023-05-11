@@ -1,7 +1,7 @@
 .banner__principal{
     width: 100%;
     text-align: left;
-    background-image: url(./img/banner-image.png);
+    background-image: url("https://github.com/Cfonta1986/alurageek/blob/main/img/banner.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
