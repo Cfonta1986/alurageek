@@ -1,17 +1,17 @@
 const listaUsuario = () => {
-    return fetch ("https://apiarticulosalurageek.onrender.com/usuarios").then((respuesta) => {
+    return fetch ("https://apialurageek-as70.onrender.com/usuarios").then((respuesta) => {
         return respuesta.json();
     });
 };
 
 const eliminarUsuario = (id) => {
-    return fetch (`https://apiarticulosalurageek.onrender.com/usuarios/${id}`, {
+    return fetch (`https://apialurageek-as70.onrender.com/usuarios/${id}`, {
         method: "DELETE",
     })
 }
 
 const crearUsuario = (usuario, email, contraseña) => {
-    return fetch ("https://apiarticulosalurageek.onrender.com/usuarios", {
+    return fetch ("https://apialurageek-as70.onrender.com/usuarios/usuarios", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -21,11 +21,11 @@ const crearUsuario = (usuario, email, contraseña) => {
 }
 
 const detalleUsuario = (id) => {
-    return fetch ( `https://apiarticulosalurageek.onrender.com/usuarios/${id}`).then( respuesta => respuesta.json() )
+    return fetch ( `https://apialurageek-as70.onrender.com/usuarios/${id}`).then( respuesta => respuesta.json() )
 }
 
 const actualizarUsuario = (usuario, email, contraseña, id) => {
-    return fetch ( `https://apiarticulosalurageek.onrender.com/usuarios/${id}`, {
+    return fetch ( `https://apialurageek-as70.onrender.com/usuarios/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
