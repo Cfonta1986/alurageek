@@ -1,11 +1,11 @@
 const listaProductos = () => {
-    return fetch ("https://apiarticulosalurageek.onrender.com/articulos").then((respuesta) => {
+    return fetch ("https://apialurageek-as70.onrender.com/articulos").then((respuesta) => {
         return respuesta.json();
     });
 };
 
 const crearProductos = (foto,categoria,nombre,precio,descripcion) => {
-    return fetch ("https://apiarticulosalurageek.onrender.com/articulos", {
+    return fetch ("https://apialurageek-as70.onrender.com/articulos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -15,17 +15,17 @@ const crearProductos = (foto,categoria,nombre,precio,descripcion) => {
 }
 
 const eliminarProducto = (id) => {
-    return fetch (`https://apiarticulosalurageek.onrender.com/articulos/${id}`, {
+    return fetch (`https://apialurageek-as70.onrender.com/articulos/${id}`, {
         method: "DELETE",
 })
 }
 
 const detalleProducto = (id) => {
-    return fetch (`https://apiarticulosalurageek.onrender.com/articulos/${id}`).then( respuesta => respuesta.json() )
+    return fetch (`https://apialurageek-as70.onrender.com/articulos/${id}`).then( respuesta => respuesta.json() )
 }
 
 const actualizarProducto = (foto, categoria, nombre, precio, descripcion, id) => {
-    return fetch (`https://apiarticulosalurageek.onrender.com/articulos/${id}`, {
+    return fetch (`https://apialurageek-as70.onrender.com/articulos/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
