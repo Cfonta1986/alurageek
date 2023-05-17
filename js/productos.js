@@ -6,8 +6,8 @@ const crearNuevoProducto = (foto,nombre,precio,id)=>{
             <div class="items__producto">
                 <div class="items__imagen">
                     <img class="items__producto--img" alt="${nombre}" src="${foto}" />
-                    <a href="/productos.editar.html?id=${id}" data-modificar id="${id}"><img class="boton__modificar" alt="modificar" src="./img/edit.png"/></a>
-                    <button data-eliminar id="${id}"><img class="boton__eliminar" alt="eliminar" src="./img/delete.png" /></button>
+                    <a href="/productos.editar.html?id=${id}" data-modificar id="${id}"><img class="boton__modificar" alt="modificar" src="https://cfonta1986.github.io/alurageek/img/edit.png"/></a>
+                    <button data-eliminar id="${id}"><img class="boton__eliminar" alt="eliminar" src="https://cfonta1986.github.io/alurageek/img/delete.png" /></button>
                 </div>
                 <div class="items__contenido">
                     <h4 class="items__producto--titulo">${nombre}</h4>
